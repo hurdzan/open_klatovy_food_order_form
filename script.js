@@ -12,113 +12,113 @@ const POLEVKA_TEXT = "Slepičí vývar s drobením a zeleninou, 0,3 l";
 
 const DNY = [
   {
-    id: "sob27", nazev: "Sobota", datum: "27.6.",
+    id: "so_1", nazev: "Sobota", datum: "27.6.",
+    obed: null,
     vecere: [
       "Kuřecí nudličky Čína, dušená rýže, 120g/300g",
       "Rybí Fish & Chips, brambory, tatarka, 120g/300g",
       "Kuřecí stripsy na zeleninovém salátu s dresinkem, opečené bramborové klíny",
     ],
-    obed: null,
   },
   {
-    id: "ned28", nazev: "Neděle", datum: "28.6.",
-    vecere: [
-      "Svíčková na smetaně, houskový knedlík, brusinky, šlehačka",
-      "Uzené maso, bramborový knedlík, zelí",
-      "Zeleninová čína s tofu, dušená rýže",
-    ],
+    id: "ne_1", nazev: "Neděle", datum: "28.6.",
     obed: [
       "Kuřecí řízek, bramborový salát",
       "Smažený sýr, bramborový salát, tatarka",
       "Zeleninový výběr, vařené brambory s máslem",
     ],
+    vecere: [
+      "Svíčková na smetaně, houskový knedlík, brusinky, šlehačka",
+      "Uzené maso, bramborový knedlík, zelí",
+      "Zeleninová čína s tofu, dušená rýže",
+    ],
   },
   {
-    id: "pon29", nazev: "Pondělí", datum: "29.6.",
-    vecere: [
-      "Segedínský guláš, houskový knedlík",
-      "Pečená kuřecí stehna, vařené brambory, salát",
-      "Čočka na kyselo, vejce, okurka",
-    ],
+    id: "po", nazev: "Pondělí", datum: "29.6.",
     obed: [
       "Svíčková na smetaně, houskový knedlík",
       "Kuřecí steak s bylinkovým máslem, hranolky",
       "Pasta primavera se zeleninou a parmazánem",
     ],
+    vecere: [
+      "Segedínský guláš, houskový knedlík",
+      "Pečená kuřecí stehna, vařené brambory, salát",
+      "Čočka na kyselo, vejce, okurka",
+    ],
   },
   {
-    id: "ute30", nazev: "Úterý", datum: "30.6.",
-    vecere: [
-      "Pečené vepřové koleno, bramborová kaše, hořčice",
-      "Grilovaný losos, vařené brambory, salát",
-      "Plněné papriky, rajčatová omáčka, rýže",
-    ],
+    id: "ut", nazev: "Úterý", datum: "30.6.",
     obed: [
       "Špenátové tagliatelle, parmazán",
       "Kuřecí curry, basmati rýže",
       "Hamburger s hranolkami a salátem",
     ],
+    vecere: [
+      "Pečené vepřové koleno, bramborová kaše, hořčice",
+      "Grilovaný losos, vařené brambory, salát",
+      "Plněné papriky, rajčatová omáčka, rýže",
+    ],
   },
   {
-    id: "str1", nazev: "Středa", datum: "1.7.",
-    vecere: [
-      "Svíčkový steak, opečené brambory, grilovaná zelenina",
-      "Kuřecí tikka masala, rýže, naan",
-      "Zeleninový guláš, chléb",
-    ],
+    id: "st", nazev: "Středa", datum: "1.7.",
     obed: [
       "Smažená kuřecí křídla, coleslaw, hranolky",
       "Vepřová panenka, houskový knedlík, omáčka",
       "Quinoa bowl se zeleninou a hummussem",
     ],
+    vecere: [
+      "Svíčkový steak, opečené brambory, grilovaná zelenina",
+      "Kuřecí tikka masala, rýže, naan",
+      "Zeleninový guláš, chléb",
+    ],
   },
   {
-    id: "ctv2", nazev: "Čtvrtek", datum: "2.7.",
-    vecere: [
-      "Grilovaná kuřecí prsa, pečené brambory, grilovaná zelenina",
-      "Vepřový řízek přírodní, bramborová kaše",
-      "Ratatouille, čerstvý chléb",
-    ],
+    id: "ct", nazev: "Čtvrtek", datum: "2.7.",
     obed: [
       "Hovězí vývar s nudlemi a zeleninou",
       "Fazolový hrnec s klobásou, chléb",
       "Cizrnový salát s olivami a fetou",
     ],
+    vecere: [
+      "Grilovaná kuřecí prsa, pečené brambory, grilovaná zelenina",
+      "Vepřový řízek přírodní, bramborová kaše",
+      "Ratatouille, čerstvý chléb",
+    ],
   },
   {
-    id: "pat3", nazev: "Pátek", datum: "3.7.",
-    vecere: [
-      "Pečené kuře s česnekem, opečené brambory",
-      "Makrely na grilu, bramborový salát",
-      "Zeleninová pizza",
-    ],
+    id: "pa", nazev: "Pátek", datum: "3.7.",
     obed: [
       "Masové koule v rajčatové omáčce, těstoviny",
       "Grilovaný losos, basmati rýže",
       "Sýrové rizoto s hříbky",
     ],
+    vecere: [
+      "Pečené kuře s česnekem, opečené brambory",
+      "Makrely na grilu, bramborový salát",
+      "Zeleninová pizza",
+    ],
   },
   {
-    id: "sob4", nazev: "Sobota", datum: "4.7.",
-    vecere: [
-      "Vepřová žebra BBQ, coleslaw, hranolky",
-      "Zapečená kuřecí prsa s mozzarellou, těstoviny",
-      "Plněné papriky s rýží a fetou",
-    ],
+    id: "so_2", nazev: "Sobota", datum: "4.7.",
     obed: [
       "Svíčková na smetaně, houskový knedlík, brusinky",
       "Kuřecí gyros, tzatziki, pita",
       "Zeleninová čína s tofu, rýže",
     ],
+    vecere: [
+      "Vepřová žebra BBQ, coleslaw, hranolky",
+      "Zapečená kuřecí prsa s mozzarellou, těstoviny",
+      "Plněné papriky s rýží a fetou",
+    ],
   },
   {
-    id: "ned5", nazev: "Neděle", datum: "5.7.",
-    vecere: null,
+    id: "ne_2", nazev: "Neděle", datum: "5.7.",
     obed: [
       "Vepřová pečeně, svíčková omáčka, houskový knedlík",
       "Kuřecí řízek, bramborový salát",
       "Zeleninový výběr s vařenou rýží",
     ],
+    vecere: null,
   },
 ];
 
@@ -141,8 +141,8 @@ function sestavFormular() {
         <div class="day-chevron">⌄</div>
       </div>
       <div class="day-body" id="body-${den.id}">
-        ${den.vecere ? sestavMealSlot(den.id, "vecere", den.vecere) : ""}
         ${den.obed   ? sestavMealSlot(den.id, "obed",   den.obed)  : ""}
+        ${den.vecere ? sestavMealSlot(den.id, "vecere", den.vecere) : ""}
       </div>
     `;
     kontejner.appendChild(karta);
@@ -270,7 +270,7 @@ function aktualizujCenu() {
 document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("rok").addEventListener("input", function () {
     const rok          = parseInt(this.value, 10);
-    const jeValidni    = rok >= 1930 && rok <= 2026;
+    const jeValidni    = rok >= 1920 && rok <= 2026;
     const detskaMozna  = jeValidni && rok >= 2014;
     const radioDospela = document.getElementById("porce-dospela");
     const radioDetska  = document.getElementById("porce-detska");
